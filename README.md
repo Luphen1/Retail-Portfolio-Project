@@ -377,10 +377,10 @@ SET `Discount %` = `Discount %` * 0.01;
 
 ```
 
-````
+```
 
 -- Handling null values
-
+````
 SELECT 'Order No' AS columnname,COUNT(*) AS null_count
 FROM retail
 WHERE `Order No` = NULL
@@ -483,9 +483,11 @@ WHERE `Order Total` = NULL;
 
 ````
 
+```
+-- Checking for duplicate values
 
+````
 
--- Checking for duplicate values 
  SELECT * FROM retail
  WHERE `Order No` NOT  IN (
     SELECT MIN(`Order No`)
@@ -494,7 +496,7 @@ WHERE `Order Total` = NULL;
              `Order Priority`, `Product Name`, `Product Category`, `Product Container`, `Ship Mode`, `Ship Date`,
              `Cost Price`, `Retail Price`, `Profit Margin`, `Order Quantity`, `Sub Total`, `Discount %`,
              `Discount $`, `Order Total`, `Shipping Cost`, Total);
-
+ ````
 
 
 ### Results/Findings:
@@ -532,12 +534,10 @@ WHERE `Order Total` = NULL;
 12.I was able to target the top ten products with the highest order quantity and order cost purchased by customers.
 13.Consumer customer types tend to have the highest average order quantity of 28.154 per customer type.
 
-
-
-
  
 
 ### Recommendations:
+
 
 1.Utilize data-driven insights to optimize inventory management, considering the 4,999 orders and 787 unique customers identified across the dataset.
 2.Implement targeted marketing strategies to capitalize on the diverse customer base of 787 unique individuals.
