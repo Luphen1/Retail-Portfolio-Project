@@ -8,6 +8,14 @@ Retail Insights
 
 -  [Project Overview](#Project_Overview)
 
+  ![Retail Dashboard 1](https://github.com/Luphen1/Retail-Portfolio-Project/assets/140397207/44e427fb-9deb-4ab6-8b4d-e5e455ee1496)
+
+
+ ![Retail Dashboard2](https://github.com/Luphen1/Retail-Portfolio-Project/assets/140397207/04a2bd8a-b6d0-403b-a798-22968aa2f287)
+
+
+
+
 -  [Data Source](#Data_Source)
 
 -  [Tools](#Tools)
@@ -372,6 +380,7 @@ SET `Discount %` = `Discount %` * 0.01;
 ````
 
 -- Handling null values
+
 SELECT 'Order No' AS columnname,COUNT(*) AS null_count
 FROM retail
 WHERE `Order No` = NULL
@@ -471,8 +480,6 @@ UNION
 SELECT 'Order Total' AS columnname,COUNT(*) AS null_count
 FROM retail
 WHERE `Order Total` = NULL;
-
-
 
 ````
 
