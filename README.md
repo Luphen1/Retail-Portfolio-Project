@@ -371,7 +371,6 @@ SET `Discount %` = `Discount %` * 0.01;
 
 ````
 
-
 -- Handling null values
 SELECT 'Order No' AS columnname,COUNT(*) AS null_count
 FROM retail
@@ -492,38 +491,40 @@ WHERE `Order Total` = NULL;
 
 
 ### Results/Findings:
-The analysis results are summarized as follows:
 
-1.There were 4999 orders across the dataset.
+1.There were 4,999 orders across the dataset.
 2.There were 787 unique customers across the dataset.
 3.A total of 257 unique products were purchased by customers.
 4.The total order cost was $3,731,457.
 5.The total order quantity was 132,3989.
-6.Christina Vanderzanden ordered 51 products with a total cost of $18,610.
-Michael Oakman ordered 50 products with a total cost of $26,679.
-Cindy Chapman ordered 44 products with a total cost of $11,087.
-Dave Hallsten ordered 43 products with a total cost of $36,397.
-Christopher Martinez ordered 39 products with a total cost of $24,101.
-Philip Brown ordered 38 products with a total cost of $11,102.
-Patrick Jones ordered 37 products with a total cost of $26,093.
-Saphhira Shifley ordered 36 products with a total cost of $34,376.
-Jeremy Pistek ordered 35 products with a total cost of $27,214.
+6.Customers with total quantity and order cost as follow:
+  a)Christina Vanderzanden ordered 51 products with a total cost of $18,610. 
+  b)Michael Oakman ordered 50 products with a total cost of $26,679.
+  c)Cindy Chapman ordered 44 products with a total cost of $11,087. 
+  d)Dave Hallsten ordered 43 products with a total cost of $36,397. 
+  e)Christopher Martinez ordered 39 products with a total cost of $24,101.
+  f)Philip Brown ordered 38 products with a total cost of $11,102. 
+  g)Patrick Jones ordered 37 products with a total cost of $26,093. 
+  h)Saphhira Shifley ordered 36 products with a total cost of $34,376.
+  i)Jeremy Pistek ordered 35 products with a total cost of $27,214.
 7.Not specified and high order priority tend to have the highest order quantity and total cost in my analysis.
 8.Here are the managers’ performances for each year:
-•In 2013, Tina Carlton had a total order quantity of 2,931 and Connor Betts had a total order cost of $88,480.
-•In 2014, Connor Betts had the highest order quantity of 2,785 and a total order cost of $140,794.
-•In 2015, Connor Betts had an order quantity of 3,825 and a total order cost of $124,620.
-•In 2016, Tina Carlton had an order quantity of 2,792 while Connor Betts had a total order cost of $65,597, and Nicholas Fernandes had a total order quantity of 308 with a total order cost of $13,843.
+  a)In 2013, Tina Carlton had a total order quantity of 2,931 and Connor Betts had a total order cost of $88,480.
+  b)In 2014, Connor Betts had the highest order quantity of 2,785 and a total order cost of $140,794.
+  c)In 2015, Connor Betts had an order quantity of 3,825 and a total order cost of $124,620.
+  d)In 2016, Tina Carlton had an order quantity of 2,792 while Connor Betts had a total order cost of $65,597, and Nicholas Fernandes had a total order quantity of 308 with a total order cost of 
+    $13,843.
 9.The small box container had the highest total order quantity of 67,365.
 10.Seasonal trends by order are as follows:
-•June 2015 had an order quantity of 657.
-•October 2014 had a total order quantity of 334.
-•August 2015 had an order quantity of 574.
-•October 2016 had an order quantity of 462.
-•January 2017 had an order quantity of 155.
+  a)June 2015 had an order quantity of 657.
+  b)October 2014 had a total order quantity of 334.
+  c)August 2015 had an order quantity of 574.
+  d)October 2016 had an order quantity of 462.
+  e)January 2017 had an order quantity of 155.
 11.The highest order of 9,716 was placed in Sydney [NSW] during the month of December, while the highest order of 4,582 was placed in Melbourne [VIC] during the month of May.
 12.I was able to target the top ten products with the highest order quantity and order cost purchased by customers.
 13.Consumer customer types tend to have the highest average order quantity of 28.154 per customer type.
+
 
 
 
