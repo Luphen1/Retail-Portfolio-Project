@@ -507,29 +507,29 @@ WHERE `Order Total` = NULL;
 4.The total order cost was $3,731,457.
 5.The total order quantity was 132,3989.
 6.Customers with total quantity and order cost as follow:
-  a)Christina Vanderzanden ordered 51 products with a total cost of $18,610. 
-  b)Michael Oakman ordered 50 products with a total cost of $26,679.
-  c)Cindy Chapman ordered 44 products with a total cost of $11,087. 
-  d)Dave Hallsten ordered 43 products with a total cost of $36,397. 
-  e)Christopher Martinez ordered 39 products with a total cost of $24,101.
-  f)Philip Brown ordered 38 products with a total cost of $11,102. 
-  g)Patrick Jones ordered 37 products with a total cost of $26,093. 
-  h)Saphhira Shifley ordered 36 products with a total cost of $34,376.
-  i)Jeremy Pistek ordered 35 products with a total cost of $27,214.
+a)Christina Vanderzanden ordered 51 products with a total cost of $18,610. 
+b)Michael Oakman ordered 50 products with a total cost of $26,679.
+c)Cindy Chapman ordered 44 products with a total cost of $11,087. 
+d)Dave Hallsten ordered 43 products with a total cost of $36,397. 
+e)Christopher Martinez ordered 39 products with a total cost of $24,101.
+f)Philip Brown ordered 38 products with a total cost of $11,102. 
+g)Patrick Jones ordered 37 products with a total cost of $26,093. 
+h)Saphhira Shifley ordered 36 products with a total cost of $34,376.
+i)Jeremy Pistek ordered 35 products with a total cost of $27,214.
 7.Not specified and high order priority tend to have the highest order quantity and total cost in my analysis.
 8.Here are the managers’ performances for each year:
-  a)In 2013, Tina Carlton had a total order quantity of 2,931 and Connor Betts had a total order cost of $88,480.
-  b)In 2014, Connor Betts had the highest order quantity of 2,785 and a total order cost of $140,794.
-  c)In 2015, Connor Betts had an order quantity of 3,825 and a total order cost of $124,620.
-  d)In 2016, Tina Carlton had an order quantity of 2,792 while Connor Betts had a total order cost of $65,597, and Nicholas Fernandes had a total order quantity of 308 with a total order cost of 
-    $13,843.
+ a)In 2013, Tina Carlton had a total order quantity of 2,931 and Connor Betts had a total order cost of $88,480.
+ b)In 2014, Connor Betts had the highest order quantity of 2,785 and a total order cost of $140,794.
+ c)In 2015, Connor Betts had an order quantity of 3,825 and a total order cost of $124,620.
+ d)In 2016, Tina Carlton had an order quantity of 2,792 while Connor Betts had a total order cost of $65,597, and Nicholas Fernandes had a total order quantity of 308 with a total order cost of 
+ $13,843.
 9.The small box container had the highest total order quantity of 67,365.
 10.Seasonal trends by order are as follows:
-  a)June 2015 had an order quantity of 657.
-  b)October 2014 had a total order quantity of 334.
-  c)August 2015 had an order quantity of 574.
-  d)October 2016 had an order quantity of 462.
-  e)January 2017 had an order quantity of 155.
+ a)June 2015 had an order quantity of 657.
+ b)October 2014 had a total order quantity of 334.
+ c)August 2015 had an order quantity of 574.
+ d)October 2016 had an order quantity of 462.
+ e)January 2017 had an order quantity of 155.
 11.The highest order of 9,716 was placed in Sydney [NSW] during the month of December, while the highest order of 4,582 was placed in Melbourne [VIC] during the month of May.
 12.I was able to target the top ten products with the highest order quantity and order cost purchased by customers.
 13.Consumer customer types tend to have the highest average order quantity of 28.154 per customer type.
@@ -539,19 +539,19 @@ WHERE `Order Total` = NULL;
 ### Recommendations:
 
 
-1.Utilize data-driven insights to optimize inventory management, considering the 4,999 orders and 787 unique customers identified across the dataset.
-2.Implement targeted marketing strategies to capitalize on the diverse customer base of 787 unique individuals.
-3.Focus on promoting the 257 unique products that were purchased by customers to enhance sales and customer satisfaction.
-4.Analyze and adjust pricing strategies based on the $3,731,457 total order costs to maximize profitability.
-5.Fine-tune supply chain operations to meet the demand reflected in the 132,3989 total order quantities.
-6.Recognize top-performing customers like Christina Vanderzanden and Michael Oakman, tailoring special offers to enhance loyalty.
-7.Prioritize order specifications and high order priority items to drive increased order quantity and total costs.
-8.Monitor managerial performances closely, noting the success of individuals like Connor Betts with consistent high order quantities and total costs.
-9.Capitalize on the popularity of items like the small box container, which garnered the highest total order quantity of 67,365.
-10.Align marketing campaigns with seasonal trends, targeting peak months such as June 2015 and October 2014 to maximize sales.
-11.Identify geographical preferences for ordering, with Sydney and Melbourne exhibiting significant order volume during specific months.
-12.Targeting top ten products with the highest order quantities and costs to guide future marketing and inventory decisions. 
-13.Offer personalized recommendations and incentives to consumer customers, leveraging their tendency towards higher average order quantities for increased sales.
+1.   Utilize data-driven insights to optimize inventory management, considering the 4,999 orders and 787 unique customers identified across the dataset.
+2.   Implement targeted marketing strategies to capitalize on the diverse customer base of 787 unique individuals.
+3.   Focus on promoting the 257 unique products that were purchased by customers to enhance sales and customer satisfaction.
+4.   Analyze and adjust pricing strategies based on the $3,731,457 total order costs to maximize profitability.
+5.   Fine-tune supply chain operations to meet the demand reflected in the 132,3989 total order quantities.
+6.   Recognize top-performing customers like Christina Vanderzanden and Michael Oakman, tailoring special offers to enhance loyalty.
+7.   Prioritize order specifications and high order priority items to drive increased order quantity and total costs.
+8.   Monitor managerial performances closely, noting the success of individuals like Connor Betts with consistent high order quantities and total costs.
+9.   Capitalize on the popularity of items like the small box container, which garnered the highest total order quantity of 67,365.
+10.  Align marketing campaigns with seasonal trends, targeting peak months such as June 2015 and October 2014 to maximize sales.
+11.  Identify geographical preferences for ordering, with Sydney and Melbourne exhibiting significant order volume during specific months.
+12.  Targeting top ten products with the highest order quantities and costs to guide future marketing and inventory decisions. 
+13.  Offer personalized recommendations and incentives to consumer customers, leveraging their tendency towards higher average order quantities for increased sales.
 
 
 
